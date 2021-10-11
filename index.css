@@ -71,12 +71,11 @@ body {
 
 /* BreakPoint */
 
+// Medium devices (tablets, 768px and up)
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
-    }
+@media (min-width: 768px) { 
     .carousel-caption .h5 {
         font-size: 100px;
     }
 }
+
